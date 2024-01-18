@@ -13,10 +13,14 @@ RootLayout 과 home안의 Layout 중에 우선순위는 home layout이 적용된
 
 ### template
 
-1. template
-   1. 페이지 넘어갈 때도 동일하게 유지(리랜더링 X)→ layout
-   2. 페이지 넘어갈 때마다 리랜더링되게 하고 싶다 →template
-2. Link
-   1. A태그 대신 사용.(A태그는 새로 고침이 됨)
-3. Image
-   1. png 파일도 import해서 사용이 가능하다! 하지만 img가 아닌 Image로 사용해야 함. ⇒ 이 경우 next에서 알아서 최적화를 해줌.
+공식문서상 페이지를 넘나들때마다 기록하게 하고 싶을 때 사용하라고 권유 됨.
+
+1. 페이지 넘어갈 때도 동일하게 유지(리랜더링 X)→ layout
+2. 페이지 넘어갈 때마다 리랜더링되게 하고 싶다 →template
+
+### Image
+
+[https://nextjs.org/docs/pages/building-your-application/optimizing/images](https://nextjs.org/docs/pages/building-your-application/optimizing/images)
+
+png 파일도 import해서 사용이 가능하다.
+하지만 img가 아닌 Image로 사용해야 함. ⇒ 이 경우 next에서 알아서 최적화를 해줌.
