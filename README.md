@@ -24,3 +24,8 @@ RootLayout 과 home안의 Layout 중에 우선순위는 home layout이 적용된
 
 png 파일도 import해서 사용이 가능하다.
 하지만 img가 아닌 Image로 사용해야 함. ⇒ 이 경우 next에서 알아서 최적화를 해줌.
+
+### dvw, dvh 속성
+
+- 모바일 주소창 때문에 레이아웃이 틀어지는걸 방지하기위해 dvw, dvh를 사용.
+- 주소창 틀어짐 없이 레이아웃 전체를 채울 수 있게됩니다.
