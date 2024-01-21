@@ -29,3 +29,13 @@ png 파일도 import해서 사용이 가능하다.
 
 - 모바일 주소창 때문에 레이아웃이 틀어지는걸 방지하기위해 dvw, dvh를 사용.
 - 주소창 틀어짐 없이 레이아웃 전체를 채울 수 있게됩니다.
+
+### Parallel Routes
+
+동시에 보여줄 수 있도록 하는 기능
+
+[https://nextjs.org/docs/app/building-your-application/routing/parallel-routes](https://nextjs.org/docs/app/building-your-application/routing/parallel-routes)
+
+### Intercepting Routes
+
+[https://nextjs.org/docs/app/building-your-application/routing/intercepting-routes](https://nextjs.org/docs/app/building-your-application/routing/intercepting-routes)
